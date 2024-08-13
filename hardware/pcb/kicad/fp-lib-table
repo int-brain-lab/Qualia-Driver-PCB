@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Adafruit Qualia Driver")(type "KiCad")(uri "$(KIPRJMOD)/Adafruit Qualia Driver.pretty")(options "")(descr ""))
+)
