@@ -14046,7 +14046,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.com/en/products/detail/cal-chip-electronics-inc/GMC21X7R106K25NT/13969909"
+		(property "Link" "https://www.digikey.com/en/products/detail/cal-chip-electronics-inc/GMC21X7R106K25NT/22639515"
 			(at 101.6 69.85 0)
 			(effects
 				(font
@@ -16115,7 +16115,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Number" "SWITCH TACTILE SPST-NO 0.02A 15V"
+		(property "Manufacturer Number" "EVQ-Q2U03W"
+			(at 358.14 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "SWITCH TACTILE SPST-NO 0.02A 15V"
 			(at 358.14 142.24 0)
 			(effects
 				(font
@@ -18170,7 +18179,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Number" "SWITCH TACTILE SPST-NO 0.02A 15V"
+		(property "Manufacturer Number" "EVQ-Q2U03W"
 			(at 358.14 119.38 90)
 			(effects
 				(font
@@ -18180,6 +18189,15 @@
 			)
 		)
 		(property "Link" "https://www.digikey.com/en/products/detail/panasonic-electronic-components/EVQ-Q2U03W/762905"
+			(at 358.14 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "SWITCH TACTILE SPST-NO 0.02A 15V"
 			(at 358.14 119.38 90)
 			(effects
 				(font
@@ -18279,7 +18297,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.com/en/products/detail/cal-chip-electronics-inc/GMC21X7R106K25NT/13969909"
+		(property "Link" "https://www.digikey.com/en/products/detail/cal-chip-electronics-inc/GMC21X7R106K25NT/22639515"
 			(at 172.72 60.96 90)
 			(effects
 				(font
@@ -20338,7 +20356,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.com/en/products/detail/cal-chip-electronics-inc/GMC21X7R106K25NT/13969909"
+		(property "Link" "https://www.digikey.com/en/products/detail/cal-chip-electronics-inc/GMC21X7R106K25NT/22639515"
 			(at 109.22 69.85 0)
 			(effects
 				(font
@@ -20989,7 +21007,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Number" "SWITCH TACTILE SPST-NO 0.02A 15V"
+		(property "Manufacturer Number" "EVQ-Q2U03W"
+			(at 358.14 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "SWITCH TACTILE SPST-NO 0.02A 15V"
 			(at 358.14 129.54 0)
 			(effects
 				(font
@@ -21707,7 +21734,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.com/en/products/detail/cal-chip-electronics-inc/GMC21X7R106K25NT/13969909"
+		(property "Link" "https://www.digikey.com/en/products/detail/cal-chip-electronics-inc/GMC21X7R106K25NT/22639515"
 			(at 53.975 64.77 0)
 			(effects
 				(font
