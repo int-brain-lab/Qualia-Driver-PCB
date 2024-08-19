@@ -13269,7 +13269,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "03e2832a-c921-4423-bde2-8748561cc33c")
-		(property "Reference" "#U$30"
+		(property "Reference" "#U$030"
 			(at 347.98 129.54 0)
 			(effects
 				(font
@@ -13320,7 +13320,7 @@
 		(instances
 			(project "Adafruit Qualia Driver"
 				(path "/094f27f0-8e36-43fe-ac7d-109bd890c443"
-					(reference "#U$30")
+					(reference "#U$030")
 					(unit 1)
 				)
 			)
@@ -13436,7 +13436,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "064cac23-6be8-4e2b-ad14-b911a33ab7eb")
 		(property "Reference" "JP1"
 			(at 167.64 137.16 0)
@@ -13505,7 +13505,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "106a945a-5ea5-49e8-962e-9fd75cc35473")
-		(property "Reference" "#P+2"
+		(property "Reference" "#P+02"
 			(at 353.06 160.02 0)
 			(effects
 				(font
@@ -13556,7 +13556,7 @@
 		(instances
 			(project "Adafruit Qualia Driver"
 				(path "/094f27f0-8e36-43fe-ac7d-109bd890c443"
-					(reference "#P+2")
+					(reference "#P+02")
 					(unit 1)
 				)
 			)
@@ -14079,7 +14079,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "19b1aef6-b4c3-416d-bf07-a3ead78fa7c6")
-		(property "Reference" "#U$7"
+		(property "Reference" "#U$07"
 			(at 393.7 50.8 0)
 			(effects
 				(font
@@ -14130,7 +14130,7 @@
 		(instances
 			(project "Adafruit Qualia Driver"
 				(path "/094f27f0-8e36-43fe-ac7d-109bd890c443"
-					(reference "#U$7")
+					(reference "#U$07")
 					(unit 1)
 				)
 			)
@@ -14145,7 +14145,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1f06faba-d7f0-43af-aa2e-beb4f005cab1")
-		(property "Reference" "#U$8"
+		(property "Reference" "#U$08"
 			(at 353.06 63.5 0)
 			(effects
 				(font
@@ -14196,7 +14196,7 @@
 		(instances
 			(project "Adafruit Qualia Driver"
 				(path "/094f27f0-8e36-43fe-ac7d-109bd890c443"
-					(reference "#U$8")
+					(reference "#U$08")
 					(unit 1)
 				)
 			)
@@ -14310,7 +14310,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2332b676-27f9-4827-a21f-6435bd2799d9")
-		(property "Reference" "#U$16"
+		(property "Reference" "#U$016"
 			(at 177.8 91.44 0)
 			(effects
 				(font
@@ -14361,7 +14361,7 @@
 		(instances
 			(project "Adafruit Qualia Driver"
 				(path "/094f27f0-8e36-43fe-ac7d-109bd890c443"
-					(reference "#U$16")
+					(reference "#U$016")
 					(unit 1)
 				)
 			)
@@ -14439,7 +14439,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2beb4cf8-9164-42b7-bf2f-13b10172f256")
-		(property "Reference" "#U$5"
+		(property "Reference" "#U$05"
 			(at 27.94 152.4 0)
 			(effects
 				(font
@@ -14490,7 +14490,7 @@
 		(instances
 			(project "Adafruit Qualia Driver"
 				(path "/094f27f0-8e36-43fe-ac7d-109bd890c443"
-					(reference "#U$5")
+					(reference "#U$05")
 					(unit 1)
 				)
 			)
@@ -14505,7 +14505,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2de275c6-d108-47ad-9c2e-6605dfac4606")
-		(property "Reference" "#U$24"
+		(property "Reference" "#U$024"
 			(at 266.7 68.58 0)
 			(effects
 				(font
@@ -14556,7 +14556,7 @@
 		(instances
 			(project "Adafruit Qualia Driver"
 				(path "/094f27f0-8e36-43fe-ac7d-109bd890c443"
-					(reference "#U$24")
+					(reference "#U$024")
 					(unit 1)
 				)
 			)
@@ -14696,7 +14696,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7uF/50V"
+		(property "Value" "4.7uF"
 			(at 269 59.71 90)
 			(effects
 				(font
@@ -14713,7 +14713,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_general_en.pdf"
 			(at 266.7 60.96 0)
 			(effects
 				(font
@@ -14980,7 +14980,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3a6e5765-ea71-4b5b-866b-86d4ef4d5081")
-		(property "Reference" "#U$2"
+		(property "Reference" "#U$02"
 			(at 43.18 246.38 0)
 			(effects
 				(font
@@ -15031,7 +15031,7 @@
 		(instances
 			(project "Adafruit Qualia Driver"
 				(path "/094f27f0-8e36-43fe-ac7d-109bd890c443"
-					(reference "#U$2")
+					(reference "#U$02")
 					(unit 1)
 				)
 			)
@@ -15046,7 +15046,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3a8a45af-7cf5-44b0-b9e9-e49fd0fb0247")
-		(property "Reference" "#U$29"
+		(property "Reference" "#U$029"
 			(at 347.98 142.24 0)
 			(effects
 				(font
@@ -15097,7 +15097,7 @@
 		(instances
 			(project "Adafruit Qualia Driver"
 				(path "/094f27f0-8e36-43fe-ac7d-109bd890c443"
-					(reference "#U$29")
+					(reference "#U$029")
 					(unit 1)
 				)
 			)
@@ -15346,7 +15346,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "413204a1-4132-43ad-b0dc-682960fdd908")
-		(property "Reference" "#U$31"
+		(property "Reference" "#U$031"
 			(at 173.355 256.54 0)
 			(effects
 				(font
@@ -15397,7 +15397,7 @@
 		(instances
 			(project "Adafruit Qualia Driver"
 				(path "/094f27f0-8e36-43fe-ac7d-109bd890c443"
-					(reference "#U$31")
+					(reference "#U$031")
 					(unit 1)
 				)
 			)
@@ -15666,7 +15666,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4ee7c7ad-d2bb-4fbf-bd23-9a3fea0642ce")
-		(property "Reference" "#U$36"
+		(property "Reference" "#U$036"
 			(at 154.94 83.82 0)
 			(effects
 				(font
@@ -15717,7 +15717,7 @@
 		(instances
 			(project "Adafruit Qualia Driver"
 				(path "/094f27f0-8e36-43fe-ac7d-109bd890c443"
-					(reference "#U$36")
+					(reference "#U$036")
 					(unit 1)
 				)
 			)
@@ -15903,7 +15903,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7uF/50V"
+		(property "Value" "4.7uF"
 			(at 276.62 59.71 90)
 			(effects
 				(font
@@ -15920,7 +15920,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_general_en.pdf"
 			(at 274.32 60.96 0)
 			(effects
 				(font
@@ -16154,7 +16154,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5f717e53-3855-40bc-b17e-1af371a89742")
-		(property "Reference" "#U$3"
+		(property "Reference" "#U$03"
 			(at 27.94 177.8 0)
 			(effects
 				(font
@@ -16205,7 +16205,7 @@
 		(instances
 			(project "Adafruit Qualia Driver"
 				(path "/094f27f0-8e36-43fe-ac7d-109bd890c443"
-					(reference "#U$3")
+					(reference "#U$03")
 					(unit 1)
 				)
 			)
@@ -16323,7 +16323,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7uF/50V"
+		(property "Value" "4.7uF"
 			(at 253.76 59.71 90)
 			(effects
 				(font
@@ -16340,7 +16340,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_general_en.pdf"
 			(at 251.46 60.96 0)
 			(effects
 				(font
@@ -16504,7 +16504,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "754677e4-d1c3-436e-a911-365461090df9")
-		(property "Reference" "#U$35"
+		(property "Reference" "#U$035"
 			(at 281.94 68.58 0)
 			(effects
 				(font
@@ -16555,7 +16555,7 @@
 		(instances
 			(project "Adafruit Qualia Driver"
 				(path "/094f27f0-8e36-43fe-ac7d-109bd890c443"
-					(reference "#U$35")
+					(reference "#U$035")
 					(unit 1)
 				)
 			)
@@ -16768,7 +16768,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7uF/50V"
+		(property "Value" "4.7uF"
 			(at 284.24 59.71 90)
 			(effects
 				(font
@@ -16785,7 +16785,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_general_en.pdf"
 			(at 281.94 60.96 0)
 			(effects
 				(font
@@ -16854,7 +16854,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7e4bd8d0-6568-4ee1-9fef-306af2272661")
-		(property "Reference" "#U$28"
+		(property "Reference" "#U$028"
 			(at 347.98 119.38 0)
 			(effects
 				(font
@@ -16905,7 +16905,7 @@
 		(instances
 			(project "Adafruit Qualia Driver"
 				(path "/094f27f0-8e36-43fe-ac7d-109bd890c443"
-					(reference "#U$28")
+					(reference "#U$028")
 					(unit 1)
 				)
 			)
@@ -17081,7 +17081,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "82532f34-cc14-4bdd-9d59-99b0a9b19f08")
-		(property "Reference" "#U$6"
+		(property "Reference" "#U$06"
 			(at 172.72 48.26 0)
 			(effects
 				(font
@@ -17132,7 +17132,7 @@
 		(instances
 			(project "Adafruit Qualia Driver"
 				(path "/094f27f0-8e36-43fe-ac7d-109bd890c443"
-					(reference "#U$6")
+					(reference "#U$06")
 					(unit 1)
 				)
 			)
@@ -17213,7 +17213,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8450b714-8335-4352-a537-ff17bfbf16c3")
-		(property "Reference" "#U$1"
+		(property "Reference" "#U$01"
 			(at 83.82 195.58 0)
 			(effects
 				(font
@@ -17264,7 +17264,7 @@
 		(instances
 			(project "Adafruit Qualia Driver"
 				(path "/094f27f0-8e36-43fe-ac7d-109bd890c443"
-					(reference "#U$1")
+					(reference "#U$01")
 					(unit 1)
 				)
 			)
@@ -17373,7 +17373,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "861e4363-55bf-44f5-8269-aa16860d5b3b")
-		(property "Reference" "#U$21"
+		(property "Reference" "#U$021"
 			(at 231.14 101.6 0)
 			(effects
 				(font
@@ -17424,7 +17424,7 @@
 		(instances
 			(project "Adafruit Qualia Driver"
 				(path "/094f27f0-8e36-43fe-ac7d-109bd890c443"
-					(reference "#U$21")
+					(reference "#U$021")
 					(unit 1)
 				)
 			)
@@ -17955,7 +17955,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "94bbc510-eba8-47b8-8d14-ec2119b90d76")
-		(property "Reference" "#U$42"
+		(property "Reference" "#U$042"
 			(at 388.62 63.5 0)
 			(effects
 				(font
@@ -18006,7 +18006,7 @@
 		(instances
 			(project "Adafruit Qualia Driver"
 				(path "/094f27f0-8e36-43fe-ac7d-109bd890c443"
-					(reference "#U$42")
+					(reference "#U$042")
 					(unit 1)
 				)
 			)
@@ -18243,7 +18243,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://calchip.com/wp-content/uploads/2023/09/GMC-Series-2.pdf"
 			(at 172.72 60.96 0)
 			(effects
 				(font
@@ -18666,7 +18666,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "9f552c6d-4a05-4da1-9225-f999ed3e9c0b")
 		(property "Reference" "FID1"
 			(at 274.32 271.78 0)
@@ -18686,7 +18686,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Adafruit Qualia Driver:FIDUCIAL_1MM"
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
 			(at 274.32 271.78 0)
 			(effects
 				(font
@@ -18826,7 +18826,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a1e98703-8480-43c1-8b86-aa4554ba8fc1")
-		(property "Reference" "#U$38"
+		(property "Reference" "#U$038"
 			(at 281.94 48.26 0)
 			(effects
 				(font
@@ -18877,7 +18877,7 @@
 		(instances
 			(project "Adafruit Qualia Driver"
 				(path "/094f27f0-8e36-43fe-ac7d-109bd890c443"
-					(reference "#U$38")
+					(reference "#U$038")
 					(unit 1)
 				)
 			)
@@ -18892,7 +18892,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a3fb6645-753a-43d4-8eb6-998344596550")
-		(property "Reference" "#U$45"
+		(property "Reference" "#U$045"
 			(at 383.54 76.2 0)
 			(effects
 				(font
@@ -18943,7 +18943,7 @@
 		(instances
 			(project "Adafruit Qualia Driver"
 				(path "/094f27f0-8e36-43fe-ac7d-109bd890c443"
-					(reference "#U$45")
+					(reference "#U$045")
 					(unit 1)
 				)
 			)
@@ -18958,7 +18958,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a8337dae-d7c8-4487-983c-9e6bcff51b63")
-		(property "Reference" "#U$40"
+		(property "Reference" "#U$040"
 			(at 236.22 142.24 0)
 			(effects
 				(font
@@ -19009,7 +19009,7 @@
 		(instances
 			(project "Adafruit Qualia Driver"
 				(path "/094f27f0-8e36-43fe-ac7d-109bd890c443"
-					(reference "#U$40")
+					(reference "#U$040")
 					(unit 1)
 				)
 			)
@@ -19022,7 +19022,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "abaae764-c4b2-4f02-897f-ff9bd63a03fe")
 		(property "Reference" "FID2"
 			(at 274.32 266.7 0)
@@ -19042,7 +19042,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Adafruit Qualia Driver:FIDUCIAL_1MM"
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
 			(at 274.32 266.7 0)
 			(effects
 				(font
@@ -19659,7 +19659,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b9f57370-58ab-437f-bd3b-9a9cce3a7484")
-		(property "Reference" "#U$19"
+		(property "Reference" "#U$019"
 			(at 160.02 139.7 0)
 			(effects
 				(font
@@ -19710,7 +19710,7 @@
 		(instances
 			(project "Adafruit Qualia Driver"
 				(path "/094f27f0-8e36-43fe-ac7d-109bd890c443"
-					(reference "#U$19")
+					(reference "#U$019")
 					(unit 1)
 				)
 			)
@@ -20048,7 +20048,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c22ed032-032b-4533-863a-a039a3c0e76a")
-		(property "Reference" "#U$20"
+		(property "Reference" "#U$020"
 			(at 160.02 210.82 0)
 			(effects
 				(font
@@ -20099,7 +20099,7 @@
 		(instances
 			(project "Adafruit Qualia Driver"
 				(path "/094f27f0-8e36-43fe-ac7d-109bd890c443"
-					(reference "#U$20")
+					(reference "#U$020")
 					(unit 1)
 				)
 			)
@@ -20371,7 +20371,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cb046f53-aa96-44d4-84fb-a156d39e9982")
-		(property "Reference" "#P+4"
+		(property "Reference" "#P+04"
 			(at 264.16 251.46 0)
 			(effects
 				(font
@@ -20422,7 +20422,7 @@
 		(instances
 			(project "Adafruit Qualia Driver"
 				(path "/094f27f0-8e36-43fe-ac7d-109bd890c443"
-					(reference "#P+4")
+					(reference "#P+04")
 					(unit 1)
 				)
 			)
@@ -20501,7 +20501,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "d1fc5831-a935-46b6-a76c-6b7e8cbb8e58")
 		(property "Reference" "FID3"
 			(at 274.32 261.62 0)
@@ -20521,7 +20521,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Adafruit Qualia Driver:FIDUCIAL_1MM"
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
 			(at 274.32 261.62 0)
 			(effects
 				(font
@@ -20662,7 +20662,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d36317be-242b-4a7e-b6de-70b7eccf888f")
-		(property "Reference" "#U$9"
+		(property "Reference" "#U$09"
 			(at 381 170.18 0)
 			(effects
 				(font
@@ -20713,7 +20713,7 @@
 		(instances
 			(project "Adafruit Qualia Driver"
 				(path "/094f27f0-8e36-43fe-ac7d-109bd890c443"
-					(reference "#U$9")
+					(reference "#U$09")
 					(unit 1)
 				)
 			)
@@ -20728,7 +20728,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d3ac7d64-e5c1-4fdb-af88-39bade5de208")
-		(property "Reference" "#U$22"
+		(property "Reference" "#U$022"
 			(at 251.46 68.58 0)
 			(effects
 				(font
@@ -20779,7 +20779,7 @@
 		(instances
 			(project "Adafruit Qualia Driver"
 				(path "/094f27f0-8e36-43fe-ac7d-109bd890c443"
-					(reference "#U$22")
+					(reference "#U$022")
 					(unit 1)
 				)
 			)
@@ -20794,7 +20794,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d50899b1-5e49-47e6-aaf2-1a1b26c2901e")
-		(property "Reference" "#U$17"
+		(property "Reference" "#U$017"
 			(at 172.72 68.58 0)
 			(effects
 				(font
@@ -20845,7 +20845,7 @@
 		(instances
 			(project "Adafruit Qualia Driver"
 				(path "/094f27f0-8e36-43fe-ac7d-109bd890c443"
-					(reference "#U$17")
+					(reference "#U$017")
 					(unit 1)
 				)
 			)
@@ -20860,7 +20860,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "db1d3209-7158-4299-a073-eaeba0bf28b2")
-		(property "Reference" "#P+1"
+		(property "Reference" "#P+01"
 			(at 43.18 137.16 0)
 			(effects
 				(font
@@ -20911,7 +20911,7 @@
 		(instances
 			(project "Adafruit Qualia Driver"
 				(path "/094f27f0-8e36-43fe-ac7d-109bd890c443"
-					(reference "#P+1")
+					(reference "#P+01")
 					(unit 1)
 				)
 			)
@@ -21094,7 +21094,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dfd84bc9-c956-4c72-abb9-6f46869a7732")
-		(property "Reference" "#GND16"
+		(property "Reference" "#GND016"
 			(at 345.44 43.18 0)
 			(effects
 				(font
@@ -21145,7 +21145,7 @@
 		(instances
 			(project "Adafruit Qualia Driver"
 				(path "/094f27f0-8e36-43fe-ac7d-109bd890c443"
-					(reference "#GND16")
+					(reference "#GND016")
 					(unit 1)
 				)
 			)
@@ -21256,7 +21256,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e588e996-62ce-4b16-bafe-660eaeb1fc55")
-		(property "Reference" "#U$37"
+		(property "Reference" "#U$037"
 			(at 289.56 63.5 0)
 			(effects
 				(font
@@ -21307,7 +21307,7 @@
 		(instances
 			(project "Adafruit Qualia Driver"
 				(path "/094f27f0-8e36-43fe-ac7d-109bd890c443"
-					(reference "#U$37")
+					(reference "#U$037")
 					(unit 1)
 				)
 			)
@@ -21482,7 +21482,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e87b3370-5161-4991-b862-59ac1abc0b7c")
-		(property "Reference" "#U$26"
+		(property "Reference" "#U$026"
 			(at 264.16 264.16 0)
 			(effects
 				(font
@@ -21533,7 +21533,7 @@
 		(instances
 			(project "Adafruit Qualia Driver"
 				(path "/094f27f0-8e36-43fe-ac7d-109bd890c443"
-					(reference "#U$26")
+					(reference "#U$026")
 					(unit 1)
 				)
 			)
@@ -21748,7 +21748,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7uF/50V"
+		(property "Value" "4.7uF"
 			(at 261.38 59.71 90)
 			(effects
 				(font
@@ -21765,7 +21765,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_general_en.pdf"
 			(at 259.08 60.96 0)
 			(effects
 				(font
@@ -21834,7 +21834,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ef7b1f13-232f-4c50-9e75-8fa96031b38d")
-		(property "Reference" "#U$25"
+		(property "Reference" "#U$025"
 			(at 274.32 68.58 0)
 			(effects
 				(font
@@ -21885,7 +21885,7 @@
 		(instances
 			(project "Adafruit Qualia Driver"
 				(path "/094f27f0-8e36-43fe-ac7d-109bd890c443"
-					(reference "#U$25")
+					(reference "#U$025")
 					(unit 1)
 				)
 			)
@@ -22061,7 +22061,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f5d7a02e-3a7d-45ea-94da-e82b57c84d2e")
-		(property "Reference" "#U$23"
+		(property "Reference" "#U$023"
 			(at 259.08 68.58 0)
 			(effects
 				(font
@@ -22112,7 +22112,7 @@
 		(instances
 			(project "Adafruit Qualia Driver"
 				(path "/094f27f0-8e36-43fe-ac7d-109bd890c443"
-					(reference "#U$23")
+					(reference "#U$023")
 					(unit 1)
 				)
 			)
@@ -22127,7 +22127,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fd7be3fe-bb4a-43d8-92e4-d0a542f86893")
-		(property "Reference" "#P+7"
+		(property "Reference" "#P+07"
 			(at 173.355 236.22 0)
 			(effects
 				(font
@@ -22178,7 +22178,7 @@
 		(instances
 			(project "Adafruit Qualia Driver"
 				(path "/094f27f0-8e36-43fe-ac7d-109bd890c443"
-					(reference "#P+7")
+					(reference "#P+07")
 					(unit 1)
 				)
 			)

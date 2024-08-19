@@ -52,7 +52,15 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "lib_footprint_mismatch|144101100|94803600|3e02014e-7581-4417-b235-8b747c19aa6c|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|145901100|94803600|4f7a7151-dd77-49ed-9ace-6181849645c9|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|147701100|94803600|53632735-b954-4695-af41-a583d0f26a07|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|149501100|94803600|6637abe8-189f-4459-a257-80b31bf7f575|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|151301100|94803600|5e55a246-9405-4d6f-b20e-df0a56507470|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|164427850|130503600|038cd0b9-f58f-407c-a942-786541f0f72d|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|166374100|88003600|d25e02b7-cd67-49d3-8a4a-179c40202641|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -111,7 +119,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.2032,
+        "min_clearance": 0.1524,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.025,
         "min_hole_clearance": 0.25,
@@ -439,7 +447,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2032,
+        "clearance": 0.1524,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -467,8 +475,8 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
-      "pos_files": "",
+      "plot": "exports/qualia_driver_pcb_v1.2.0/gerbers/",
+      "pos_files": "exports/qualia_driver_pcb_v1.2.0/",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
@@ -478,7 +486,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "",
+    "bom_export_filename": "Adafruit Qualia Driver.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -560,7 +568,7 @@
           "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Manufacturer Number",
           "name": "Manufacturer Number",
           "show": true
@@ -569,7 +577,7 @@
           "group_by": false,
           "label": "Notes",
           "name": "Notes",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
