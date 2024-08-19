@@ -7317,7 +7317,7 @@
 			)
 		)
 		(property "Footprint" "Adafruit Qualia Driver:DPAK"
-			(at 0 0 -90)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "022256dc-22fc-4607-8a01-82f02a23bc22")
@@ -7329,7 +7329,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.infineon.com/dgdl/irlr024npbf.pdf?fileId=5546d462533600a4015356694f7f265d"
-			(at 0 0 -90)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7cbbd911-2129-4224-bb60-a9422ed5ba8a")
@@ -7341,7 +7341,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 -90)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3323208d-f33a-4509-9c3f-eb48ddefa9a7")
@@ -7484,7 +7484,7 @@
 			(uuid "b19e0786-0f0a-4263-a79f-6ddea25897e3")
 		)
 		(fp_text user "4"
-			(at -0.3302 -1.8415 -90)
+			(at -0.3302 -1.8415 90)
 			(layer "F.Fab")
 			(uuid "54a35b15-13b4-4a0d-b446-83ca785ac756")
 			(effects
@@ -7492,11 +7492,11 @@
 					(size 0.560832 0.560832)
 					(thickness 0.048768)
 				)
-				(justify left bottom)
+				(justify right top)
 			)
 		)
 		(fp_text user "1"
-			(at -2.413 2.5273 -90)
+			(at -2.413 2.5273 90)
 			(layer "F.Fab")
 			(uuid "5af0c1e4-248e-4feb-ab5d-6e274503c1dd")
 			(effects
@@ -7504,11 +7504,11 @@
 					(size 0.560832 0.560832)
 					(thickness 0.048768)
 				)
-				(justify left bottom)
+				(justify right top)
 			)
 		)
 		(fp_text user "3"
-			(at 1.9812 2.5273 -90)
+			(at 1.9812 2.5273 90)
 			(layer "F.Fab")
 			(uuid "83567049-f84e-49ab-a341-cc07e2cd4ec9")
 			(effects
@@ -7516,11 +7516,11 @@
 					(size 0.560832 0.560832)
 					(thickness 0.048768)
 				)
-				(justify left bottom)
+				(justify right top)
 			)
 		)
 		(fp_text user "2"
-			(at -0.2032 2.5273 -90)
+			(at -0.2032 2.5273 90)
 			(layer "F.Fab")
 			(uuid "d4fd7cbd-b254-48ae-8414-f311d7d37dfe")
 			(effects
@@ -7528,7 +7528,7 @@
 					(size 0.560832 0.560832)
 					(thickness 0.048768)
 				)
-				(justify left bottom)
+				(justify right top)
 			)
 		)
 		(pad "1" smd rect
