@@ -20102,7 +20102,7 @@
 		(layer "Edge.Cuts")
 		(uuid "d6da7d6a-fbf5-4fbc-9557-457c5a4ffd4e")
 	)
-	(gr_text "https://github.com/int-brain-lab/Qualia-Driver-PCB"
+	(gr_text "github.com/int-brain-lab/Qualia-Driver-PCB"
 		(at 107.5 49.9 0)
 		(layer "B.SilkS")
 		(uuid "6ca65dec-5c0d-4a8d-933d-728320a34d56")
