@@ -1,4 +1,4 @@
-Forked from [AllenNeuralDynamics/Adafruit-Qualia-Driver-PCB](https://github.com/int-brain-lab/Qualia-Driver-PCB) with minor changes for use by IBL.
+Forked from [AllenNeuralDynamics/Adafruit-Qualia-Driver-PCB](https://github.com/AllenNeuralDynamics/Adafruit-Qualia-Driver-PCB) with minor changes for use by IBL.
 
 ---
 
