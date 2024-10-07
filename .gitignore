@@ -8,7 +8,7 @@ hardware/pcb/*/exports/
 *.kicad_sch-bak
 *.kicad_sch.lck
 fp-info-cache
-
+*.lck
 
 # Vim temporary files
 *.swp

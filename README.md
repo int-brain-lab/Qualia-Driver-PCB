@@ -1,4 +1,8 @@
-## Adafruit Qualia Driver PCB
+Forked from AllenNeuralDynamics/Adafruit-Qualia-Driver-PCB with minor changes for use by IBL.
+
+---
+
+## Qualia Driver PCB
 
 <a href="http://www.adafruit.com/products/1716"><img src="assets/image.jpg?raw=true" width="500px"><br/>
 Click here to purchase one from the Adafruit shop</a>
