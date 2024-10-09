@@ -7,6 +7,7 @@
    Upload w/USBtinyISP
 */
 
+#include <Arduino.h>
 #include "EEPROM.h"
 
 #define led 1
