@@ -18380,7 +18380,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Adafruit Qualia Driver:FPC_51PIN_502250-5191_EXT"
+		(property "Footprint" "Adafruit Qualia Driver:FPC_51PIN_502250-5191_2"
 			(at 63.5 190.5 0)
 			(effects
 				(font
