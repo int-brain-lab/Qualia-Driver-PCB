@@ -1,7 +1,7 @@
 (footprint "EVQ-Q2"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -3 -3.5 0)
@@ -25,18 +25,6 @@
 				(thickness 0.1016)
 			)
 			(justify left bottom)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "9aac2cf9-a441-4f19-bae0-9885c856626b")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -110,7 +98,7 @@
 			(width 0.127)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "7af62955-6022-4b50-ab18-744346c1830b")
 	)
@@ -121,14 +109,14 @@
 			(width 0.127)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "47110cab-a294-4e96-9073-ea67d34e5ff8")
 	)
 	(pad "A" smd rect
 		(at -3.4 2)
 		(size 3.2 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.1016)
 		(thermal_bridge_angle 0)
 		(uuid "7ed58d69-7915-4340-9c59-1450dc73df4c")
@@ -136,7 +124,7 @@
 	(pad "A'" smd rect
 		(at 3.4 2)
 		(size 3.2 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.1016)
 		(thermal_bridge_angle 0)
 		(uuid "6aaecb8c-9484-4566-bff0-225bba706eff")
@@ -144,7 +132,7 @@
 	(pad "B" smd rect
 		(at -3.4 -2)
 		(size 3.2 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.1016)
 		(thermal_bridge_angle 0)
 		(uuid "23c14bd5-222d-4e88-9b65-e8158b503c50")
@@ -152,9 +140,21 @@
 	(pad "B'" smd rect
 		(at 3.4 -2)
 		(size 3.2 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.1016)
 		(thermal_bridge_angle 0)
 		(uuid "515a681d-1d1f-4998-9050-43d9fb11bdc2")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_EVQP0.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
 	)
 )

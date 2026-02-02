@@ -5108,259 +5108,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Adafruit Qualia Driver-eagle-import:LED0805"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "LED"
-				(at -5.08 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.0795)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at -5.08 -2.794 0)
-				(effects
-					(font
-						(size 1.27 1.0795)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "Adafruit Qualia Driver:CHIPLED_0805"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "LED0805_1_0"
-				(polyline
-					(pts
-						(xy -2.54 1.27) (xy -2.54 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -1.27) (xy 0 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 1.27) (xy -0.635 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.9525 2.8575) (xy -0.3175 2.2225)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 1.27) (xy 0.635 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3175 2.2225) (xy 0 3.175)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 3.175) (xy -0.9525 2.8575)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.3175 2.8575) (xy 0.9525 2.2225)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.9525 2.2225) (xy 1.27 3.175)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 3.175) (xy 0.3175 2.8575)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "A"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "C"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Adafruit Qualia Driver-eagle-import:MOSFET-NDPAK"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -8403,6 +8150,189 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -10145,16 +10075,6 @@
 	)
 	(wire
 		(pts
-			(xy 365.76 165.1) (xy 368.3 165.1)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "0d190d85-62b3-4df5-a713-41c02929de60")
-	)
-	(wire
-		(pts
 			(xy 86.36 74.295) (xy 96.52 74.295)
 		)
 		(stroke
@@ -10162,6 +10082,16 @@
 			(type default)
 		)
 		(uuid "0f5eb06f-a654-4ce5-affe-272e22d574bd")
+	)
+	(wire
+		(pts
+			(xy 375.92 165.1) (xy 381 165.1)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0f9414d9-c73f-4db7-a5cb-b71477876b5e")
 	)
 	(wire
 		(pts
@@ -10565,16 +10495,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 162.56) (xy 160.02 172.72)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "3586bcdd-b1ed-4d95-a308-bc4cacbc25dd")
-	)
-	(wire
-		(pts
 			(xy 193.04 193.04) (xy 193.04 205.74)
 		)
 		(stroke
@@ -10732,16 +10652,6 @@
 			(type solid)
 		)
 		(uuid "40d2e054-7fc5-4934-b6a6-75e3bc256d57")
-	)
-	(wire
-		(pts
-			(xy 378.46 165.1) (xy 381 165.1)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "40f621ff-3266-45d9-b5b3-902c596bbe3a")
 	)
 	(wire
 		(pts
@@ -11012,6 +10922,16 @@
 			(type solid)
 		)
 		(uuid "51fca601-b890-40c8-96f7-fe5717b7f4a3")
+	)
+	(wire
+		(pts
+			(xy 353.06 162.56) (xy 353.06 165.1)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "532084ca-54b5-43b4-915e-a564b295d2f1")
 	)
 	(wire
 		(pts
@@ -12105,16 +12025,6 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 165.1) (xy 358.14 165.1)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "bb692b08-15fe-4567-9586-c841e7826a3e")
-	)
-	(wire
-		(pts
 			(xy 231.14 160.02) (xy 215.9 160.02)
 		)
 		(stroke
@@ -12415,6 +12325,16 @@
 	)
 	(wire
 		(pts
+			(xy 363.22 165.1) (xy 368.3 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d07385cf-c379-40d2-8fa0-9419e2fec26b")
+	)
+	(wire
+		(pts
 			(xy 62.23 67.31) (xy 60.325 67.31)
 		)
 		(stroke
@@ -12432,6 +12352,16 @@
 			(type solid)
 		)
 		(uuid "d25168eb-5cca-4881-9550-3e654901c088")
+	)
+	(wire
+		(pts
+			(xy 160.02 162.56) (xy 160.02 172.72)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d28a0572-359e-4260-bf0d-a32166ee70da")
 	)
 	(wire
 		(pts
@@ -12582,6 +12512,16 @@
 			(type default)
 		)
 		(uuid "e22400b9-ebd1-4014-8adf-c4306da29da7")
+	)
+	(wire
+		(pts
+			(xy 353.06 165.1) (xy 355.6 165.1)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e27bdf03-cce3-4a60-aed7-a4bfaae874ab")
 	)
 	(wire
 		(pts
@@ -12942,16 +12882,6 @@
 			(type solid)
 		)
 		(uuid "f9c5a325-6c3d-4e89-835b-54bb9259e734")
-	)
-	(wire
-		(pts
-			(xy 353.06 162.56) (xy 353.06 165.1)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "fbc5f270-2956-4e2d-b456-11ba5b212db1")
 	)
 	(wire
 		(pts
@@ -13604,7 +13534,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Adafruit Qualia Driver:_0805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 177.8 83.82 0)
 			(effects
 				(font
@@ -13999,6 +13929,74 @@
 			(project "Adafruit Qualia Driver"
 				(path "/094f27f0-8e36-43fe-ac7d-109bd890c443"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 372.11 165.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "11326cd0-ec17-48e6-93e7-59d5195db2eb")
+		(property "Reference" "R1"
+			(at 372.11 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470"
+			(at 372.11 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 372.11 166.878 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 372.11 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 372.11 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7fb97b14-e40e-4760-b42f-20abed82cde6")
+		)
+		(pin "2"
+			(uuid "c547a5f1-3d05-4477-85c0-f5567d8adfb5")
+		)
+		(instances
+			(project ""
+				(path "/094f27f0-8e36-43fe-ac7d-109bd890c443"
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -14621,69 +14619,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Adafruit Qualia Driver-eagle-import:FRAME_A3")
-		(at 17.78 279.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2a083656-f867-42f0-a318-a1c1768674fe")
-		(property "Reference" "#FRAME1"
-			(at 17.78 279.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "FRAME_A3"
-			(at 17.78 279.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 17.78 279.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 17.78 279.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 17.78 279.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "Adafruit Qualia Driver"
-				(path "/094f27f0-8e36-43fe-ac7d-109bd890c443"
-					(reference "#FRAME1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Adafruit Qualia Driver-eagle-import:20V")
 		(at 27.94 152.4 0)
 		(unit 1)
@@ -14957,7 +14892,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Adafruit Qualia Driver:_0805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 266.7 60.96 0)
 			(effects
 				(font
@@ -15486,111 +15421,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Adafruit Qualia Driver-eagle-import:LED0805")
-		(at 363.22 165.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3e0fb8b7-2d4a-4041-b917-eb7dada1ceb1")
-		(property "Reference" "LED1"
-			(at 358.14 161.925 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "green"
-			(at 358.14 167.894 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Adafruit Qualia Driver:CHIPLED_0805"
-			(at 363.22 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 363.22 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 363.22 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Number" "SM0805GCL"
-			(at 363.22 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Bivar Inc."
-			(at 363.22 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.digikey.com/en/products/detail/bivar-inc/SM0805GCL/3095527"
-			(at 363.22 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Notes" "1.9V Forward Voltage"
-			(at 363.22 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "A"
-			(uuid "17350b31-427d-439f-9e63-60d2085d892c")
-		)
-		(pin "C"
-			(uuid "2d612376-044e-4635-91c2-987840c4d76c")
-		)
-		(instances
-			(project "Adafruit Qualia Driver"
-				(path "/094f27f0-8e36-43fe-ac7d-109bd890c443"
-					(reference "LED1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Adafruit Qualia Driver-eagle-import:GND")
 		(at 173.355 256.54 0)
 		(unit 1)
@@ -15778,7 +15608,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Adafruit Qualia Driver:_0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 160.02 96.52 0)
 			(effects
 				(font
@@ -15805,7 +15635,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.com/en/products/detail/yageo/RC0805FR-07100KL/727544"
+		(property "Link" ""
 			(at 160.02 96.52 0)
 			(effects
 				(font
@@ -15814,7 +15644,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" ""
 			(at 160.02 96.52 0)
 			(effects
 				(font
@@ -15823,7 +15653,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Number" "RC0805FR-07100KL"
+		(property "Manufacturer Number" ""
 			(at 160.02 96.52 0)
 			(effects
 				(font
@@ -16164,7 +15994,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Adafruit Qualia Driver:_0805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 274.32 60.96 0)
 			(effects
 				(font
@@ -16474,101 +16304,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Adafruit Qualia Driver-eagle-import:RESISTOR_0805")
-		(at 373.38 165.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "653aa532-39ed-442a-9623-54bc8095ff58")
-		(property "Reference" "R1"
-			(at 373.38 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "470"
-			(at 373.38 165.1 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-					(bold yes)
-				)
-			)
-		)
-		(property "Footprint" "Adafruit Qualia Driver:_0805"
-			(at 373.38 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 373.38 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 373.38 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.digikey.com/en/products/detail/yageo/RC0805FR-07470RL/727976"
-			(at 373.38 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 373.38 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Number" "RC0805FR-07470RL"
-			(at 373.38 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4683a749-cecf-45ab-93de-39cfa5046c5a")
-		)
-		(pin "2"
-			(uuid "150feebf-b080-4a55-a483-e02ca6d2a64b")
-		)
-		(instances
-			(project "Adafruit Qualia Driver"
-				(path "/094f27f0-8e36-43fe-ac7d-109bd890c443"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Adafruit Qualia Driver-eagle-import:CAP_CERAMIC_0805")
 		(at 251.46 60.96 0)
 		(unit 1)
@@ -16593,7 +16328,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Adafruit Qualia Driver:_0805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 251.46 60.96 0)
 			(effects
 				(font
@@ -16688,7 +16423,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Adafruit Qualia Driver:_0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 170.18 177.8 0)
 			(effects
 				(font
@@ -16715,7 +16450,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW080520K0FKEAHP/2222356"
+		(property "Link" ""
 			(at 170.18 177.8 0)
 			(effects
 				(font
@@ -16724,7 +16459,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Vishay Dale"
+		(property "Manufacturer" ""
 			(at 170.18 177.8 0)
 			(effects
 				(font
@@ -16733,7 +16468,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Number" "CRCW080520K0FKEAHP"
+		(property "Manufacturer Number" ""
 			(at 170.18 177.8 0)
 			(effects
 				(font
@@ -16849,7 +16584,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Adafruit Qualia Driver:_0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 170.18 154.94 0)
 			(effects
 				(font
@@ -16876,7 +16611,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.com/en/products/detail/yageo/RC0805FR-0747KL/727973"
+		(property "Link" ""
 			(at 170.18 154.94 0)
 			(effects
 				(font
@@ -16885,7 +16620,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" ""
 			(at 170.18 154.94 0)
 			(effects
 				(font
@@ -16894,7 +16629,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Number" "RC0805FR-0747KL"
+		(property "Manufacturer Number" ""
 			(at 170.18 154.94 0)
 			(effects
 				(font
@@ -16944,7 +16679,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Adafruit Qualia Driver:_0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 186.055 248.92 0)
 			(effects
 				(font
@@ -16971,7 +16706,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW080520K0FKEAHP/2222356"
+		(property "Link" ""
 			(at 186.055 248.92 0)
 			(effects
 				(font
@@ -16980,7 +16715,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Vishay Dale"
+		(property "Manufacturer" ""
 			(at 186.055 248.92 0)
 			(effects
 				(font
@@ -16989,7 +16724,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Number" "CRCW080520K0FKEAHP"
+		(property "Manufacturer Number" ""
 			(at 186.055 248.92 0)
 			(effects
 				(font
@@ -17038,7 +16773,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Adafruit Qualia Driver:_0805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 281.94 60.96 0)
 			(effects
 				(font
@@ -17265,7 +17000,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Adafruit Qualia Driver:_0805MP"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 368.3 76.2 0)
 			(effects
 				(font
@@ -17292,7 +17027,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW080520K0FKEAHP/2222356"
+		(property "Link" ""
 			(at 368.3 76.2 0)
 			(effects
 				(font
@@ -17301,7 +17036,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Vishay Dale"
+		(property "Manufacturer" ""
 			(at 368.3 76.2 0)
 			(effects
 				(font
@@ -17310,7 +17045,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Number" "CRCW080520K0FKEAHP"
+		(property "Manufacturer Number" ""
 			(at 368.3 76.2 0)
 			(effects
 				(font
@@ -17557,7 +17292,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Adafruit Qualia Driver:_0805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 203.2 200.66 0)
 			(effects
 				(font
@@ -17584,7 +17319,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.com/en/products/detail/yageo/CC0805KRX7R9BB472/302867"
+		(property "Link" ""
 			(at 203.2 200.66 0)
 			(effects
 				(font
@@ -17593,7 +17328,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" ""
 			(at 203.2 200.66 0)
 			(effects
 				(font
@@ -17602,7 +17337,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Number" "CC0805KRX7R9BB472"
+		(property "Manufacturer Number" ""
 			(at 203.2 200.66 0)
 			(effects
 				(font
@@ -18139,7 +17874,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Adafruit Qualia Driver:_0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 172.72 96.52 0)
 			(effects
 				(font
@@ -18166,7 +17901,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.com/en/products/detail/yageo/RC0805FR-07100KL/727544"
+		(property "Link" ""
 			(at 172.72 96.52 0)
 			(effects
 				(font
@@ -18175,7 +17910,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" ""
 			(at 172.72 96.52 0)
 			(effects
 				(font
@@ -18184,7 +17919,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Number" "RC0805FR-07100KL"
+		(property "Manufacturer Number" ""
 			(at 172.72 96.52 0)
 			(effects
 				(font
@@ -18300,7 +18035,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Adafruit Qualia Driver:_0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 198.12 187.96 0)
 			(effects
 				(font
@@ -18327,7 +18062,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.com/en/products/detail/te-connectivity-passive-product/CRG0805F15K/2380847"
+		(property "Link" ""
 			(at 198.12 187.96 0)
 			(effects
 				(font
@@ -18336,7 +18071,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "TE Connectivity Passive Product"
+		(property "Manufacturer" ""
 			(at 198.12 187.96 0)
 			(effects
 				(font
@@ -18345,7 +18080,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Number" "CRG0805F15K"
+		(property "Manufacturer Number" ""
 			(at 198.12 187.96 0)
 			(effects
 				(font
@@ -18505,7 +18240,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Adafruit Qualia Driver:_0805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 172.72 60.96 0)
 			(effects
 				(font
@@ -18852,7 +18587,7 @@
 				)
 			)
 		)
-		(property "Value" "0.058"
+		(property "Value" "0.060"
 			(at 231.14 91.44 0)
 			(effects
 				(font
@@ -18861,7 +18596,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Adafruit Qualia Driver:2512"
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
 			(at 231.14 91.44 0)
 			(effects
 				(font
@@ -19085,7 +18820,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Adafruit Qualia Driver:_0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 160.02 177.8 0)
 			(effects
 				(font
@@ -19112,7 +18847,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.com/en/products/detail/yageo/AC0805FR-0727KL/5896714"
+		(property "Link" ""
 			(at 160.02 177.8 0)
 			(effects
 				(font
@@ -19121,7 +18856,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" ""
 			(at 160.02 177.8 0)
 			(effects
 				(font
@@ -19130,7 +18865,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Number" "AC0805FR-0727KL"
+		(property "Manufacturer Number" ""
 			(at 160.02 177.8 0)
 			(effects
 				(font
@@ -19416,6 +19151,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 359.41 165.1 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "afe8ca2b-3a88-471a-a2e6-bd7fb23643c9")
+		(property "Reference" "LED1"
+			(at 360.9975 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "green"
+			(at 360.9975 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 359.41 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 359.41 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 359.41 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 359.41 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "44d947ad-28a4-4474-97d9-01d6a10a3d37")
+		)
+		(pin "1"
+			(uuid "b18493de-a449-4b4a-b2b3-17c1c619e14f")
+		)
+		(instances
+			(project ""
+				(path "/094f27f0-8e36-43fe-ac7d-109bd890c443"
+					(reference "LED1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Adafruit Qualia Driver-eagle-import:DISPLAYPORTSINKSIDE")
 		(at 120.65 167.64 0)
 		(mirror y)
@@ -19603,7 +19415,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Adafruit Qualia Driver:SOIC8"
+		(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
 			(at 231.14 251.46 0)
 			(effects
 				(font
@@ -19716,7 +19528,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Adafruit Qualia Driver:_0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 203.2 187.96 0)
 			(effects
 				(font
@@ -19743,7 +19555,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805FT7K50/1760495"
+		(property "Link" ""
 			(at 203.2 187.96 0)
 			(effects
 				(font
@@ -19752,7 +19564,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Stackpole Electronics Inc"
+		(property "Manufacturer" ""
 			(at 203.2 187.96 0)
 			(effects
 				(font
@@ -19761,7 +19573,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Number" "RMCF0805FT7K50"
+		(property "Manufacturer Number" ""
 			(at 203.2 187.96 0)
 			(effects
 				(font
@@ -20208,7 +20020,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Adafruit Qualia Driver:_0805MP"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 368.3 48.26 0)
 			(effects
 				(font
@@ -20235,7 +20047,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW080520K0FKEAHP/2222356"
+		(property "Link" ""
 			(at 368.3 48.26 0)
 			(effects
 				(font
@@ -20244,7 +20056,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Vishay Dale"
+		(property "Manufacturer" ""
 			(at 368.3 48.26 0)
 			(effects
 				(font
@@ -20253,7 +20065,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Number" "CRCW080520K0FKEAHP"
+		(property "Manufacturer Number" ""
 			(at 368.3 48.26 0)
 			(effects
 				(font
@@ -20534,7 +20346,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Adafruit Qualia Driver:_0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 160.02 154.94 0)
 			(effects
 				(font
@@ -20561,7 +20373,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW080520K0FKEAHP/2222356"
+		(property "Link" ""
 			(at 160.02 154.94 0)
 			(effects
 				(font
@@ -20570,7 +20382,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Vishay Dale"
+		(property "Manufacturer" ""
 			(at 160.02 154.94 0)
 			(effects
 				(font
@@ -20579,7 +20391,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Number" "CRCW080520K0FKEAHP"
+		(property "Manufacturer Number" ""
 			(at 160.02 154.94 0)
 			(effects
 				(font
@@ -22102,7 +21914,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Adafruit Qualia Driver:_0805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 259.08 60.96 0)
 			(effects
 				(font
@@ -22263,7 +22075,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Adafruit Qualia Driver:_0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 193.04 187.96 0)
 			(effects
 				(font
@@ -22290,7 +22102,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.digikey.com/en/products/detail/yageo/RC0805FR-0747KL/727973"
+		(property "Link" ""
 			(at 193.04 187.96 0)
 			(effects
 				(font
@@ -22299,7 +22111,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" ""
 			(at 193.04 187.96 0)
 			(effects
 				(font
@@ -22308,7 +22120,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Number" "RC0805FR-0747KL"
+		(property "Manufacturer Number" ""
 			(at 193.04 187.96 0)
 			(effects
 				(font

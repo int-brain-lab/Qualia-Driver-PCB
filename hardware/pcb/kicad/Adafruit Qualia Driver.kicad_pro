@@ -492,7 +492,7 @@
       },
       {
         "clearance": 0.2,
-        "diff_pair_gap": 0.1,
+        "diff_pair_gap": 0.1016,
         "diff_pair_width": 0.3,
         "name": "DP",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
@@ -636,6 +636,12 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
           "show": false
         }
       ],
