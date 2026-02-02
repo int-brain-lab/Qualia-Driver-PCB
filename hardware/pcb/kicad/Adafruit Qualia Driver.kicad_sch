@@ -9140,6 +9140,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:VCC"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VCC"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VCC\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VCC_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VCC_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "On/Off Switch"
 		(exclude_from_sim no)
@@ -9970,7 +10095,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 142.24) (xy 81.28 142.24)
+			(xy 107.95 142.24) (xy 81.28 142.24)
 		)
 		(stroke
 			(width 0.1524)
@@ -10350,6 +10475,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 248.92) (xy 172.72 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b4235f2-3403-4459-8d0e-cde98eb00c94")
+	)
+	(wire
+		(pts
 			(xy 274.32 63.5) (xy 274.32 66.04)
 		)
 		(stroke
@@ -10370,7 +10505,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.815 254) (xy 173.355 254)
+			(xy 170.18 254) (xy 173.355 254)
 		)
 		(stroke
 			(width 0.1524)
@@ -10580,7 +10715,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 144.78) (xy 83.82 144.78)
+			(xy 107.95 144.78) (xy 83.82 144.78)
 		)
 		(stroke
 			(width 0.1524)
@@ -10590,7 +10725,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 248.92) (xy 142.875 248.92)
+			(xy 138.43 248.92) (xy 142.24 248.92)
 		)
 		(stroke
 			(width 0.1524)
@@ -10690,7 +10825,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.875 251.46) (xy 139.7 251.46)
+			(xy 138.43 251.46) (xy 142.24 251.46)
 		)
 		(stroke
 			(width 0.1524)
@@ -10760,7 +10895,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 149.86) (xy 81.28 149.86)
+			(xy 107.95 149.86) (xy 81.28 149.86)
 		)
 		(stroke
 			(width 0.1524)
@@ -10770,7 +10905,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 157.48) (xy 81.28 157.48)
+			(xy 107.95 157.48) (xy 81.28 157.48)
 		)
 		(stroke
 			(width 0.1524)
@@ -10800,7 +10935,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 160.02) (xy 83.82 160.02)
+			(xy 107.95 160.02) (xy 83.82 160.02)
 		)
 		(stroke
 			(width 0.1524)
@@ -10827,6 +10962,16 @@
 			(type solid)
 		)
 		(uuid "50a3b311-acc7-4409-8e20-55579e0d82b0")
+	)
+	(wire
+		(pts
+			(xy 172.72 242.57) (xy 172.72 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50a7c540-2a08-425b-9816-e40370880884")
 	)
 	(wire
 		(pts
@@ -10860,7 +11005,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 152.4) (xy 83.82 152.4)
+			(xy 107.95 152.4) (xy 83.82 152.4)
 		)
 		(stroke
 			(width 0.1524)
@@ -10980,7 +11125,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 190.5) (xy 86.36 190.5)
+			(xy 107.95 190.5) (xy 86.36 190.5)
 		)
 		(stroke
 			(width 0.1524)
@@ -11170,7 +11315,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.875 254) (xy 139.7 254)
+			(xy 138.43 254) (xy 142.24 254)
 		)
 		(stroke
 			(width 0.1524)
@@ -11190,7 +11335,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 162.56) (xy 81.28 162.56)
+			(xy 107.95 162.56) (xy 81.28 162.56)
 		)
 		(stroke
 			(width 0.1524)
@@ -11270,7 +11415,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 172.72) (xy 83.82 172.72)
+			(xy 107.95 172.72) (xy 83.82 172.72)
 		)
 		(stroke
 			(width 0.1524)
@@ -11400,7 +11545,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 180.34) (xy 83.82 180.34)
+			(xy 107.95 180.34) (xy 83.82 180.34)
 		)
 		(stroke
 			(width 0.1524)
@@ -11520,7 +11665,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 170.18) (xy 81.28 170.18)
+			(xy 107.95 170.18) (xy 81.28 170.18)
 		)
 		(stroke
 			(width 0.1524)
@@ -11570,7 +11715,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.815 251.46) (xy 173.355 251.46)
+			(xy 170.18 251.46) (xy 173.99 251.46)
 		)
 		(stroke
 			(width 0.1524)
@@ -11870,7 +12015,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 167.64) (xy 83.82 167.64)
+			(xy 107.95 167.64) (xy 83.82 167.64)
 		)
 		(stroke
 			(width 0.1524)
@@ -12000,7 +12145,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 185.42) (xy 81.28 185.42)
+			(xy 107.95 185.42) (xy 81.28 185.42)
 		)
 		(stroke
 			(width 0.1524)
@@ -12080,7 +12225,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 165.1) (xy 81.28 165.1)
+			(xy 107.95 165.1) (xy 81.28 165.1)
 		)
 		(stroke
 			(width 0.1524)
@@ -12130,7 +12275,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 175.26) (xy 83.82 175.26)
+			(xy 107.95 175.26) (xy 83.82 175.26)
 		)
 		(stroke
 			(width 0.1524)
@@ -12157,16 +12302,6 @@
 			(type solid)
 		)
 		(uuid "c934f7a1-c35d-4cd4-a5d4-a3780f89a3ff")
-	)
-	(wire
-		(pts
-			(xy 173.355 243.84) (xy 173.355 248.92)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "c93bd938-d0a8-4987-bb7b-0b7aacecd69c")
 	)
 	(wire
 		(pts
@@ -12220,7 +12355,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 154.94) (xy 81.28 154.94)
+			(xy 107.95 154.94) (xy 81.28 154.94)
 		)
 		(stroke
 			(width 0.1524)
@@ -12247,16 +12382,6 @@
 			(type default)
 		)
 		(uuid "ccf68ae5-6ab9-48e8-97ad-f774f6b8c857")
-	)
-	(wire
-		(pts
-			(xy 170.815 248.92) (xy 173.355 248.92)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "cd05bf21-7a57-4519-9411-258d1e934d97")
 	)
 	(wire
 		(pts
@@ -12560,7 +12685,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 177.8) (xy 81.28 177.8)
+			(xy 107.95 177.8) (xy 81.28 177.8)
 		)
 		(stroke
 			(width 0.1524)
@@ -12570,7 +12695,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 147.32) (xy 81.28 147.32)
+			(xy 107.95 147.32) (xy 81.28 147.32)
 		)
 		(stroke
 			(width 0.1524)
@@ -12700,7 +12825,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 182.88) (xy 81.28 182.88)
+			(xy 107.95 182.88) (xy 81.28 182.88)
 		)
 		(stroke
 			(width 0.1524)
@@ -12888,6 +13013,16 @@
 		)
 		(uuid "107dd485-41c6-41d3-889c-03c9b6cdd01a")
 	)
+	(label "LANE1+"
+		(at 91.44 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "19596865-bdb9-4ea8-a8be-6a792561c160")
+	)
 	(label "BDOWN"
 		(at 191.77 256.54 0)
 		(effects
@@ -12938,6 +13073,16 @@
 		)
 		(uuid "34e74df4-b63b-43ed-bd8d-8a02cea3a620")
 	)
+	(label "LANE1-"
+		(at 91.44 154.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "37037121-2073-44ce-9a66-66798bcb5a5a")
+	)
 	(label "LEDK_A6"
 		(at 218.44 160.02 0)
 		(effects
@@ -12947,6 +13092,16 @@
 			(justify left bottom)
 		)
 		(uuid "37498562-f18b-47b2-ba63-5358940229d8")
+	)
+	(label "LANE2-"
+		(at 91.44 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3a571e9a-ac5e-49ee-b461-c8c7251ed782")
 	)
 	(label "LEDK_A1"
 		(at 218.44 132.08 0)
@@ -13048,6 +13203,16 @@
 		)
 		(uuid "745a0925-db19-4449-acd8-b0b5a6879a5b")
 	)
+	(label "LANE2+"
+		(at 91.44 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "750af0e2-cf37-4c8d-9ad8-51241f3bcdf2")
+	)
 	(label "BDOWN"
 		(at 368.3 142.24 0)
 		(effects
@@ -13059,7 +13224,7 @@
 		(uuid "75802a8a-4b72-4225-a9d3-9f0bf5b874f4")
 	)
 	(label "MISO"
-		(at 139.7 248.92 0)
+		(at 138.43 248.92 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -13158,6 +13323,16 @@
 		)
 		(uuid "93c71e10-6423-41fd-8196-73b8220b73be")
 	)
+	(label "ISP1-VCC"
+		(at 172.72 246.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9737b1b3-bf4b-4640-b090-0156f5521a89")
+	)
 	(label "ON/OFF"
 		(at 365.76 43.18 0)
 		(effects
@@ -13177,6 +13352,16 @@
 			(justify left bottom)
 		)
 		(uuid "9e29694a-25c9-4135-a649-4a8a3b8b003e")
+	)
+	(label "LANE3+"
+		(at 91.44 165.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9e846c31-4ae8-46e4-9093-6fa732f466de")
 	)
 	(label "DPP"
 		(at 350.52 81.28 0)
@@ -13229,7 +13414,7 @@
 		(uuid "c3558225-119f-4a5c-ae34-c51a99bcef31")
 	)
 	(label "RST"
-		(at 139.7 254 0)
+		(at 138.43 254 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -13289,7 +13474,7 @@
 		(uuid "e3274443-fb04-4caf-bfc4-2f211724307f")
 	)
 	(label "SCLK"
-		(at 139.7 251.46 0)
+		(at 138.43 251.46 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -13297,6 +13482,36 @@
 			(justify left bottom)
 		)
 		(uuid "f23baafd-7e44-4e72-8255-eedfcd459799")
+	)
+	(label "LANE3-"
+		(at 91.44 170.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f51f49d8-10dc-4c2b-b96b-45e7f49be894")
+	)
+	(label "LANE0-"
+		(at 91.44 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f8056c19-53e8-4a3b-b848-ddc0dd4a5f09")
+	)
+	(label "LANE0+"
+		(at 91.44 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "feaa9792-29f7-4140-af0d-2f0040abdde0")
 	)
 	(symbol
 		(lib_id "Adafruit Qualia Driver-eagle-import:GND")
@@ -17608,7 +17823,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit Qualia Driver-eagle-import:DIODESOD-323")
-		(at 173.355 241.3 270)
+		(at 172.72 240.03 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17616,7 +17831,7 @@
 		(dnp no)
 		(uuid "8d397725-ee4f-40d3-8c2d-fa74b960884a")
 		(property "Reference" "D2"
-			(at 175.895 241.3 0)
+			(at 175.26 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -17624,7 +17839,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 170.855 241.3 0)
+			(at 170.22 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -17632,7 +17847,7 @@
 			)
 		)
 		(property "Footprint" "Adafruit Qualia Driver:SOD-323"
-			(at 173.355 241.3 0)
+			(at 172.72 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17641,7 +17856,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mccsemi.com/pdf/Products/1N4148WX(SOD-323).pdf"
-			(at 173.355 241.3 0)
+			(at 172.72 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17650,7 +17865,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 173.355 241.3 0)
+			(at 172.72 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17659,7 +17874,7 @@
 			)
 		)
 		(property "Manufacturer Number" "1N4148WX-TP"
-			(at 173.355 241.3 0)
+			(at 172.72 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17668,7 +17883,7 @@
 			)
 		)
 		(property "Manufacturer" "Micro Commercial Co"
-			(at 173.355 241.3 0)
+			(at 172.72 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17677,7 +17892,7 @@
 			)
 		)
 		(property "Link" "https://www.digikey.com/en/products/detail/micro-commercial-co/1N4148WX-TP/717197"
-			(at 173.355 241.3 0)
+			(at 172.72 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18716,6 +18931,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 172.72 237.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d333236-d3ad-49ac-aeb3-3338174d22fa")
+		(property "Reference" "#PWR01"
+			(at 172.72 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 172.72 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 172.72 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "35982252-f0f6-4191-896d-042dbcebb418")
+		)
+		(instances
+			(project ""
+				(path "/094f27f0-8e36-43fe-ac7d-109bd890c443"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Adafruit Qualia Driver-eagle-import:FIDUCIAL{dblquote}{dblquote}")
 		(at 274.32 271.78 0)
 		(unit 1)
@@ -19136,7 +19417,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit Qualia Driver-eagle-import:DISPLAYPORTSINKSIDE")
-		(at 104.14 167.64 0)
+		(at 120.65 167.64 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19145,7 +19426,7 @@
 		(dnp no)
 		(uuid "b16f63a6-e4ae-4079-b33f-ecd3f1aa00e3")
 		(property "Reference" "X1"
-			(at 114.3 137.16 0)
+			(at 130.81 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -19154,7 +19435,7 @@
 			)
 		)
 		(property "Value" "0472720001"
-			(at 114.3 195.58 0)
+			(at 130.81 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -19163,7 +19444,7 @@
 			)
 		)
 		(property "Footprint" "Adafruit Qualia Driver:DISPLAYPORT_0472720001"
-			(at 104.14 167.64 0)
+			(at 120.65 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19172,7 +19453,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 167.64 0)
+			(at 120.65 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19181,7 +19462,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 104.14 167.64 0)
+			(at 120.65 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19190,7 +19471,7 @@
 			)
 		)
 		(property "Manufacturer Number" "0472720001"
-			(at 104.14 167.64 0)
+			(at 120.65 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19199,7 +19480,7 @@
 			)
 		)
 		(property "Manufacturer" "Molex"
-			(at 104.14 167.64 0)
+			(at 120.65 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19208,7 +19489,7 @@
 			)
 		)
 		(property "Field6" "https://www.molex.com/pdm_docs/sd/472720001_sd.pdf"
-			(at 104.14 167.64 0)
+			(at 120.65 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19217,7 +19498,7 @@
 			)
 		)
 		(property "Link" "https://www.digikey.com/en/products/detail/molex/0472720001/1765727"
-			(at 104.14 167.64 0)
+			(at 120.65 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19600,15 +19881,15 @@
 	)
 	(symbol
 		(lib_id "Adafruit Qualia Driver-eagle-import:AVRISP-6")
-		(at 155.575 251.46 0)
+		(at 154.94 251.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
+		(on_board no)
 		(dnp yes)
 		(uuid "b6ca54ae-80e3-4676-9f6f-593c5aca533b")
 		(property "Reference" "ISP1"
-			(at 153.035 259.08 0)
+			(at 152.4 259.08 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -19617,7 +19898,7 @@
 			)
 		)
 		(property "Value" "AVRISP-6"
-			(at 155.575 251.46 0)
+			(at 154.94 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19626,7 +19907,7 @@
 			)
 		)
 		(property "Footprint" "Adafruit Qualia Driver:AVRISP"
-			(at 155.575 251.46 0)
+			(at 154.94 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19635,7 +19916,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn.harwin.com/pdfs/M20-998.pdf"
-			(at 155.575 251.46 0)
+			(at 154.94 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19644,7 +19925,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 155.575 251.46 0)
+			(at 154.94 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19653,7 +19934,7 @@
 			)
 		)
 		(property "Manufacturer Number" "M20-9980345"
-			(at 155.575 251.46 0)
+			(at 154.94 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19662,7 +19943,7 @@
 			)
 		)
 		(property "Manufacturer" "Harwin Inc."
-			(at 155.575 251.46 0)
+			(at 154.94 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19671,7 +19952,7 @@
 			)
 		)
 		(property "Link" "https://www.digikey.com/en/products/detail/harwin-inc/M20-9980345/3728084"
-			(at 155.575 251.46 0)
+			(at 154.94 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20002,7 +20283,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "c21e8529-97a7-43bc-bb7a-3ce2e2bdb505")
@@ -22178,72 +22459,6 @@
 			(project "Adafruit Qualia Driver"
 				(path "/094f27f0-8e36-43fe-ac7d-109bd890c443"
 					(reference "#U$023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Adafruit Qualia Driver-eagle-import:VCC")
-		(at 173.355 236.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fd7be3fe-bb4a-43d8-92e4-d0a542f86893")
-		(property "Reference" "#P+07"
-			(at 173.355 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 171.831 235.204 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 173.355 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 173.355 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 173.355 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fadb875e-29a8-47ad-a952-ddc1b153097a")
-		)
-		(instances
-			(project "Adafruit Qualia Driver"
-				(path "/094f27f0-8e36-43fe-ac7d-109bd890c443"
-					(reference "#P+07")
 					(unit 1)
 				)
 			)
