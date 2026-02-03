@@ -24,6 +24,14 @@ void setBrightness(uint8_t b) {
   OCR1A = b; 
 }
 
+void fadeBrightness(uint8_t b) {
+  for (uint8_t i=0; i < b; i++) {
+    setBrightness(i);
+    delayMicroseconds(250);
+  }
+  setBrightness(b);
+}
+
 
 void setup() {
   digitalWrite(led, LOW);
@@ -38,10 +46,7 @@ void setup() {
   brightness = EEPROM.read(0);
   
   // slowly fade up!
-  for (uint8_t i=0; i < brightness; i++) {
-    setBrightness(i);
-    delay(10);
-  }
+  fadeBrightness(brightness);
    
   pinMode(upbutton, INPUT);
   digitalWrite(upbutton, HIGH);
@@ -90,10 +95,7 @@ void loop() {
       on = false;
     } else {
       // slowly fade up!
-      for (uint8_t i=0; i < brightness; i++) {
-        setBrightness(i);
-        delay(10);
-      }
+      fadeBrightness(brightness);
       // give me a break to avoid any bouncing
       delay(100);
       // we're on
