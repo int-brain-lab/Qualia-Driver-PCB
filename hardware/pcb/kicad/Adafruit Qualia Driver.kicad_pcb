@@ -9949,7 +9949,7 @@
 				)
 			)
 		)
-		(property "Drawing" "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/504/504740/5047405100_sd.pdf?inline"
+		(property "Drawing" "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/502/502598/5025985193_sd.pdf?inline"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9975,7 +9975,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Number" "5047405100"
+		(property "Manufacturer Number" "5025985193"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10001,7 +10001,7 @@
 				)
 			)
 		)
-		(property "Link" "https://www.digikey.com/en/products/detail/molex/5047405100/8120704"
+		(property "Link" "https://www.digikey.com/en/products/detail/molex/5025985193/4340572"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
