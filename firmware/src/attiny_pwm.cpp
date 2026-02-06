@@ -1,105 +1,113 @@
-// Source:
-// https://learn.adafruit.com/qualia-high-res-displayport-desktop-monitor/downloads
-
-/* Adafruit Qualia firmware for DisplayPort to LP097QX1 driver board
-   Basically, a Trinket w/PWM output to the LT backlight driver. :)
-   Recompile with Adafruit Trinket 8MHz supported Arduino IDE. 
-   Upload w/USBtinyISP
-*/
-
 #include <Arduino.h>
-#include "EEPROM.h"
+#include <EEPROM.h>
 
-#define led 1
-#define upbutton 4
-#define downbutton 3
-#define onoffbutton 0
+// Pin definitions
+constexpr uint8_t PIN_LED = 1;
+constexpr uint8_t PIN_BUTTON_UP = 4;
+constexpr uint8_t PIN_BUTTON_DOWN = 3;
+constexpr uint8_t PIN_BUTTON_ON = 0;
 
-int16_t brightness;      // range from 0 to 255 (0 is off)
+// Configuration
+constexpr uint8_t EEPROM_ADDR_BRIGHTNESS = 0;
+constexpr uint8_t BRIGHTNESS_MIN = 2;
+constexpr uint8_t BRIGHTNESS_MAX = 255;
+constexpr uint8_t BRIGHTNESS_DEFAULT = 128;
+constexpr uint16_t FADE_DELAY = 1;
+constexpr uint16_t BUTTON_REPEAT_DELAY = 100;
+constexpr uint16_t EEPROM_SAVE_DELAY = 2000;
 
-boolean on = true;       // whether the display is 'on' or not
-boolean dirtee = false;  // is the EEPROM brightness wrong?
+// State
+uint8_t brightness = 0;
+bool display_on = true;
+bool brightness_changed = false;
 
-void setBrightness(uint8_t b) {
-  OCR1A = b; 
+inline void set_brightness(uint8_t target_brightness) {
+  OCR1A = target_brightness;
 }
 
-void fadeBrightness(uint8_t b) {
-  for (uint8_t i=0; i < b; i++) {
-    setBrightness(i);
-    delayMicroseconds(250);
+void fade_to_brightness(uint8_t target) {
+  uint8_t current = OCR1A;
+  int8_t step = (current < target) ? 1 : -1;
+  
+  while (current != target) {
+    current += step;
+    set_brightness(current);
+    delay(FADE_DELAY);
   }
-  setBrightness(b);
 }
 
+inline bool is_button_pressed(uint8_t pin) {
+  return digitalRead(pin) == LOW;
+}
 
 void setup() {
-  digitalWrite(led, LOW);
-  pinMode(led, OUTPUT);
+  // configure pins
+  pinMode(PIN_BUTTON_UP, INPUT_PULLUP);
+  pinMode(PIN_BUTTON_DOWN, INPUT_PULLUP);
+  pinMode(PIN_BUTTON_ON, INPUT_PULLUP);
+  pinMode(PIN_LED, OUTPUT);
   
-  // way faster than analogWrite, 15.625Khz!
+  // configure PWM
+  // with lfuse = 0xE2: 31.25 kHz
+  // with lfuse = 0xF1: 62.5 kHz
+  TCCR1 = _BV(PWM1A) | _BV(COM1A1) | _BV(CS10);  // 0b11000001 = 0xC1
   OCR1C = 255;
   OCR1A = 0;
-  TCCR1 = _BV(CS10) | _BV(CS11) | _BV(PWM1A) | _BV(COM1A1);
   
-  // read the eeprom location 0!
-  brightness = EEPROM.read(0);
-  
-  // slowly fade up!
-  fadeBrightness(brightness);
-   
-  pinMode(upbutton, INPUT);
-  digitalWrite(upbutton, HIGH);
-  pinMode(downbutton, INPUT);
-  digitalWrite(downbutton, HIGH);
-  pinMode(onoffbutton, INPUT);
-  digitalWrite(onoffbutton, HIGH);
+  // load & set initial brightness
+  brightness = EEPROM.read(EEPROM_ADDR_BRIGHTNESS);
+  if (brightness < BRIGHTNESS_MIN || brightness > BRIGHTNESS_MAX) {
+    brightness = BRIGHTNESS_DEFAULT;
+    EEPROM.write(EEPROM_ADDR_BRIGHTNESS, brightness);
+  }
+  fade_to_brightness(brightness);
 }
 
-
 void loop() {
-  if (on) {
-    while (! digitalRead(downbutton)) {
+  static uint32_t last_brightness_change = 0;
+  uint32_t current_time = millis();
 
-      // Don't let it get dimmer than 2/255
-      if (brightness > 2) {
-        brightness --;
-        setBrightness(brightness);
-        dirtee = true;
+  if (display_on) {
+    // Brightness down
+    while (is_button_pressed(PIN_BUTTON_DOWN)) {
+      if (brightness > BRIGHTNESS_MIN) {
+        brightness--;
+        set_brightness(brightness);
+        brightness_changed = true;
+        last_brightness_change = current_time;
       }
-      delay(10);
+      delay(BUTTON_REPEAT_DELAY);
     }
-    while (! digitalRead(upbutton)) {
-      if (brightness != 255) {
-        brightness ++;
-        setBrightness(brightness);
-        dirtee = true;
+    
+    // Brightness up
+    while (is_button_pressed(PIN_BUTTON_UP)) {
+      if (brightness < BRIGHTNESS_MAX) {
+        brightness++;
+        set_brightness(brightness);
+        brightness_changed = true;
+        last_brightness_change = current_time;
       }
-      delay(10);
-    }
-    // once they release the button, write the new brightness to EEPROM
-    if (dirtee) {
-      EEPROM.write(0, brightness);
-      dirtee = false;
+      delay(BUTTON_REPEAT_DELAY);
     }
   }
+
+  // Save brightness to EEPROM
+  if (brightness_changed && current_time - last_brightness_change > EEPROM_SAVE_DELAY) {
+    EEPROM.write(EEPROM_ADDR_BRIGHTNESS, brightness);
+    brightness_changed = false;
+  }
   
-  if (! digitalRead(onoffbutton)) {
-    delay(10);
-    while (! digitalRead(onoffbutton));
-    delay(10);
-    if (on) {
-      // quickly turn off
-      setBrightness(0);
-      delay(100);
-      on = false;
+  // On/Off toggle
+  if (is_button_pressed(PIN_BUTTON_ON)) {
+    if (display_on) {
+      fade_to_brightness(0);
+      display_on = false;
     } else {
-      // slowly fade up!
-      fadeBrightness(brightness);
-      // give me a break to avoid any bouncing
-      delay(100);
-      // we're on
-      on = true;
+      fade_to_brightness(brightness);
+      display_on = true;
+    }
+    while (is_button_pressed(PIN_BUTTON_ON)) {
+      delay(10);
     }
   }
 }
