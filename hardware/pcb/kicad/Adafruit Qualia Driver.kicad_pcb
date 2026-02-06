@@ -6726,6 +6726,7 @@
 		(property "Reference" "R14"
 			(at 0 -1.65 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "daef0bd3-cc02-4e9d-a517-0940667d16aa")
 			(effects
 				(font
@@ -6737,6 +6738,7 @@
 		(property "Value" "20K"
 			(at 0 1.65 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "2c518dee-5935-4001-a537-94bbe5371df3")
 			(effects
 				(font
@@ -12811,6 +12813,7 @@
 		(property "Reference" "IC1"
 			(at 0 -3.6 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "e7163d72-0504-4b16-aae1-a0938bbd5e5b")
 			(effects
 				(font
@@ -12822,6 +12825,7 @@
 		(property "Value" "ATTINY85S"
 			(at 0 3.6 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "ffc8d379-b738-415a-8196-d8fa05f8e830")
 			(effects
 				(font
