@@ -49,7 +49,7 @@ void setup() {
   
   // configure PWM
   // with lfuse = 0xE2: 31.25 kHz
-  // with lfuse = 0xF1: 62.5 kHz
+  // with lfuse = 0xF1: 62.5 kHz (out of spec, but should work)
   TCCR1 = _BV(PWM1A) | _BV(COM1A1) | _BV(CS10);  // 0b11000001 = 0xC1
   OCR1C = 255;
   OCR1A = 0;
